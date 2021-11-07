@@ -63,7 +63,8 @@ services:
       - ./api:/app
     networks:
       - inthirajith
-    
+    depends_on:
+      - mongo
   frontend-client:
     image: 'inthirajith-client'
     build:
