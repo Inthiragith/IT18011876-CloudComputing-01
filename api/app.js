@@ -5,7 +5,7 @@ const app = express();
 const PORT = 5000;
 
 app.get('/', (req,res) => {
-    res.json('API is working!!!!');
+    res.json('API is working!!');
 });
 
 //Start server
